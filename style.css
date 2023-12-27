@@ -145,6 +145,7 @@ footer {
   align-items: center;
   gap: 5em;
 }
+
 .footer-item {
     max-width: 50px;
     max-height: 50px;
@@ -198,7 +199,7 @@ footer > p:hover {
   
     footer {
       flex-direction: column;
-      gap: 1em;
+      gap: 2em;
     }
   }
   
