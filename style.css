@@ -147,6 +147,7 @@ footer {
 }
 .footer-item {
     max-width: 50px;
+    max-height: 50px;
 }
 
 footer > p:hover {
