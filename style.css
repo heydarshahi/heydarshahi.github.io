@@ -51,7 +51,7 @@ h1 {
   font-size: 4rem;
   color: var(--dark-grey);
   margin-bottom: .785em;
-  position: relative;
+  /* position: relative; */
 }
 
 h1::before {
@@ -145,7 +145,59 @@ footer {
   align-items: center;
   gap: 5em;
 }
+.footer-item {
+    max-width: 50px;
+}
 
 footer > p:hover {
   color: var(--accent);
 }
+
+@media only screen and (max-width: 600px) {
+    .portfolio-container {
+      padding: 1em;
+    }
+  
+    .hero {
+      grid-template-columns: 1fr;
+      height: auto;
+      text-align: center;
+    }
+  
+    .hero--image {
+      grid-column: 1;
+      padding: 0;
+    }
+  
+    .hero--bio {
+      grid-column: 1;
+    }
+  
+    h1::before {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav--btn {
+      margin-bottom: 12px;
+    }
+  
+    .project-wrapper {
+      grid-template-columns: 1fr;
+    }
+  
+    .project-thumbnail:hover {
+      transform: none;
+    }
+  
+    footer {
+      flex-direction: column;
+      gap: 1em;
+    }
+  }
+  
