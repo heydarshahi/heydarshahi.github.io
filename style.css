@@ -381,6 +381,12 @@ footer > p:hover {
 /* ############################
         RESPONSIVE
 ############################### */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .skills .content .tools-knowledge-wrapper .tools-wrapper,
   .skills .content .tools-knowledge-wrapper .knowledge-wrapper {
