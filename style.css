@@ -34,7 +34,7 @@ section {
 .hero {
   height: 100%;
   /* Credit image : Unsplash - Luke Chesser */
-  background: url("img/amin.jpg");
+  background: url("img/sunset.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -79,6 +79,10 @@ section {
   color: #c0392b;
   font-weight: bold;
 }
+.basic-info {
+  font-size: 30px;
+}
+
 
 /*##### EXPERIENCE SECTION #####*/
 .experience {
@@ -375,6 +379,15 @@ section {
 
 footer > p:hover {
   color: var(--accent);
+}
+
+.profile {
+  width: 450px; /* Adjust the width as needed */
+  height: 450px; /* Adjust the height as needed */
+  border-radius: 50%; /* Creates a circular shape */
+  object-fit: cover; /* Ensures the image covers the entire container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle box shadow for a stylish effect */
+  transition: transform 0.3s ease-in-out; /* Adds a smooth transition effect */
 }
 
 
