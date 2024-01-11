@@ -253,8 +253,8 @@ section {
   text-transform: uppercase;
 }
 .resume .content a .btn-resume {
-  display: block;
-  font-size: 1.1em;
+  display: inline-block;
+  font-size: 2em;
   padding: 20px;
   margin: 0 15px;
   background: rgba(80, 80, 80, 0.9);
@@ -262,6 +262,7 @@ section {
   border: 2px solid #fff;
   border-radius: 25px;
   overflow: hidden;
+  width: 550px;
 }
 /* .resume .content a .btn-resume span {
   transition: opacity 0.5;
@@ -395,12 +396,18 @@ footer > p:hover {
         RESPONSIVE
 ############################### */
 @media only screen and (max-device-width: 1366px) {
+  .btn-resume {
+    font-size: 2.2em;
+  }
   .parallax {
     background-attachment: scroll;
   }
 }
 
 @media screen and (min-width: 480px) {
+  .btn-resume {
+    font-size: 2em;
+  }
   .skills .content .tools-knowledge-wrapper .tools-wrapper,
   .skills .content .tools-knowledge-wrapper .knowledge-wrapper {
     width: 50%;
@@ -416,6 +423,9 @@ footer > p:hover {
   }
 }
 @media screen and (min-width: 640px) {
+  .btn-resume {
+    font-size: 2.2em;
+  }
   .about-myself {
     padding: 100px 40px;
   }
@@ -442,6 +452,8 @@ footer > p:hover {
   }
 }
 @media screen and (min-width: 960px) {
+ 
+
   .experience .content ul li {
     margin: 0 auto;
   }
